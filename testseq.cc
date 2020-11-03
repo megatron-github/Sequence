@@ -1,10 +1,9 @@
 /************************************************************************
     File: testseq.cc
-    Author: Alistair Campbell
-    Date: August 30, 2015
+    Description: Alistair Campbell
 
     A test program for sequences.  Modify this as much as you
-want to thoroughly test your sequence implementation.
+    want to thoroughly test your sequence implementation.
 ************************************************************************/
 #include <iostream>
 #include <cstdlib>

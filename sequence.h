@@ -1,12 +1,7 @@
 /************************************************************************
     File: sequence.h
-    Author: Alistair Campbell
-    Date: August 30, 2015
-    Updated: February 8, 2019
-
-    Declaration of a simple array-based sequence class.
-
-    Make no changes to this file.
+    
+    Description: Declaration of a simple array-based sequence class.
 ************************************************************************/
 #include <cstdlib>
 
@@ -15,7 +10,6 @@ class sequence {
  private:
 
   /*** Member data ***/
-
   static const size_t _capacity = 100;  // the maximum number of items in
                                       // any sequence
   size_t _size; // the number of items in this sequence

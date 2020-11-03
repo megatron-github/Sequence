@@ -12,7 +12,7 @@ get(position) <br />
 getLongestRun() <br />
 size()
 
-Operations that change the sequence: 
+Operations that change the sequence: <br />
 add(item) <br />
 add(item, position) <br /> 
 remove(position) <br />

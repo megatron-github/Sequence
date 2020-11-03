@@ -1,11 +1,7 @@
 /************************************************************************
     File: sequence.cc
-    Author: Truong Pham
-    Date: 2/12/19
-    Assignment:  Lab 1 (sequence)
-
-    Implementation of a simple array-based sequence class.
-
+    
+    Assignment: Implementation of a simple array-based sequence class.
 ************************************************************************/
 #include <iostream>
 #include "sequence.h"
@@ -77,8 +73,7 @@ size_t sequence::getLongestRun() const{
   size_t tracker = 0;
   size_t position = _size;
 
-  // Cite: Man Nguyen
-  // Desc: The idea that a streak of same numbers occur when the first number
+  // A streak of same numbers occur when the first number
   // and the next number are the same, and so on with the next numbers.
 
   // For each item, find how many times it repeated itself consecutively.
@@ -96,9 +91,8 @@ size_t sequence::getLongestRun() const{
       // streak and the location where the streak started.
       if(tracker < count){
         tracker = count;
-
-        // Cite: Man Nguyen
-        // Desc: total run = end location - start location
+          
+        // total run = end location - start location
         position = loc - count;
       }
       count = 0;
